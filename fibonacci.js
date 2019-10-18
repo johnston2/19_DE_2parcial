@@ -12,8 +12,6 @@ class Fibonaci{
         return t * this.value(t-1)
     }
     return t
- 
-    
     } 
     cost(){
         return this.costo
@@ -27,6 +25,7 @@ class Fibonaci{
        
 }
 
-let f = new Fibonaci
+let f = new Fibonaci(6)
 f.value(6)
 f.cost(6)
+f.table()
