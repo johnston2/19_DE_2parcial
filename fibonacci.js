@@ -9,7 +9,7 @@ class Fibonaci{
     this.costo +=1
     this.tabl[this.costo]= this.costo
     if (t>2){
-        return r * this.value(t-1)
+        return t * this.value(t-1)
     }
     return t
  
