@@ -28,5 +28,5 @@ class Fibonaci{
 }
 
 let f = new Fibonaci
-f.value(4)
-f.cost(4)
+f.value(6)
+f.cost(6)
