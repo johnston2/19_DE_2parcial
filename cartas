@@ -81,7 +81,7 @@ class Cartas {
         }
 
     }
-    fourOfaKind(){
+    tercia(){
         var comb, perm,prob;
         var n=52, r=5;
         
@@ -116,4 +116,4 @@ class Cartas {
 let card = new Cartas();
 card.printNumber(2, 1);
 card.printCard(27);
-card.fourOfaKind();
+card.tercia();
